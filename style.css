@@ -1,0 +1,64 @@
+body{
+    background: lightcoral;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+}
+#quiz{
+    min-width: 60vw;
+    min-height: 80vh;
+    margin: 30px;
+    padding: 30px;
+    background: white;
+    border-radius: 40px;
+    box-shadow: 20px 20px 10px black;
+}
+
+#quiz>h1{
+    text-align: center;
+    font-size: 3rem;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px  yellow;
+}
+
+#question{
+    text-align: center;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.buttons{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 30px;
+}
+button{
+    width: 20vw;
+    text-align: center;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer; 
+    transition: box-shadow 1s;
+}
+
+button:hover{
+    box-shadow: 20px 20px 10px lightblue;
+}
+button:focus{
+    outline: 0;
+}
+footer{
+    font-size: 1.5rem;
+}
